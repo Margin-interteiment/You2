@@ -1,6 +1,7 @@
 import React from "react";
 import "./FineScreen.css";
 import photoForFineScreen from "../../assets/photoForFineScreen.png";
+import photoForFineScreenForMedia from "../../assets/photoForFineScreenForMedia.png";
 
 export default function FineScreen() {
   return (
@@ -9,6 +10,11 @@ export default function FineScreen() {
         <h2 className="fine-screen-title">
           Почему система штрафов эффективна?
         </h2>
+        <img
+          className="fine-screen-img-media"
+          src={photoForFineScreenForMedia}
+          alt="media for fine page"
+        />
         <p className="fine-screen-text text-problem">
           В реальном мире мы теряем деньги каждый раз, когда пасуем перед
           внедрением полезных привычек. Пропустил пробежку - потерял деньги на

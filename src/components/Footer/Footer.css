@@ -63,3 +63,61 @@
 .footer-contact-link:hover svg {
   fill: #f43750;
 }
+
+@media (max-width: 1200px) {
+  .footer-adress-text {
+    color: #828282;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: end;
+    position: relative;
+    left: 329%;
+  }
+}
+@media (max-width: 992px) {
+  .footer-adress-text {
+    color: #828282;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: end;
+    position: relative;
+    left: 210%;
+  }
+}
+@media (max-width: 768px) {
+  .footer-adress-text {
+    color: #828282;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: end;
+    position: relative;
+    left: 86%;
+  }
+}
+@media (max-width: 576px) {
+  .footer {
+    margin-top: 50px;
+    margin-left: 4px;
+    display: block;
+  }
+  .footer-contact-title {
+    display: none;
+  }
+
+  .footer-adress-subtext {
+    display: contents;
+  }
+  .footer-adress-text {
+    color: #828282;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: end;
+    position: relative;
+    left: 18%;
+  }
+
+  .footer-adress-text::before {
+    left: -26px;
+    margin-top: -3px;
+  }
+}

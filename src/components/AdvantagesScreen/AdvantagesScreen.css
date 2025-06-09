@@ -29,3 +29,91 @@
   margin-top: 30px;
   font-size: 16px;
 }
+
+@media (max-width: 1200px) {
+  .advantages-screen-title {
+    font-size: 32px;
+    color: #f73259;
+    font-weight: 700;
+    position: relative;
+    left: 17%;
+    bottom: 109px;
+    display: inline;
+  }
+}
+@media (max-width: 992px) {
+  .advantages-screen-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 111px;
+    width: 651px;
+    margin: auto;
+    display: grid;
+  }
+
+  .advantages-screen-title {
+    font-size: 28px;
+    color: #f73259;
+    font-weight: 700;
+    position: relative;
+    left: 16%;
+    bottom: 109px;
+    display: inline;
+  }
+}
+@media (max-width: 768px) {
+  .advantages-screen-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 111px;
+    width: 431px;
+    margin: auto;
+    display: grid;
+  }
+
+  .advantages-screen-title {
+    font-size: 23px;
+    color: #f73259;
+    font-weight: 700;
+    position: relative;
+    left: 14%;
+    bottom: 109px;
+    display: inline;
+  }
+
+  .advantages-screen-headline {
+    max-width: 372px;
+    position: relative;
+    left: 23px;
+  }
+}
+
+@media (max-width: 576px) {
+  .advantages-screen-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 111px;
+    width: 368px;
+    margin: auto;
+    display: grid;
+  }
+
+  .advantages-screen-headline {
+    max-width: 253px;
+    position: relative;
+    left: 32px;
+  }
+  .advantages-screen-title {
+    font-size: 26px;
+    color: #f73259;
+    font-weight: 700;
+    position: relative;
+    left: -8%;
+    bottom: 109px;
+    display: inline;
+  }
+  .advantages-steps {
+    content: "";
+    background-image: url("../../assets/bgForSteps.png");
+    width: 443px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}

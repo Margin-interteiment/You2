@@ -62,3 +62,156 @@
   position: relative;
   left: 52px;
 }
+
+.tools-screen-img-media {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .tools-screen-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 913px;
+    margin: auto;
+    display: grid;
+    position: relative;
+    right: 106px;
+    top: 57px;
+  }
+  .tools-screen-media {
+    position: relative;
+    top: 72px;
+    left: -56px;
+  }
+
+  .tools-screen-img {
+    width: 400px;
+  }
+
+  .tools-screen-headline {
+    max-width: 658px;
+  }
+
+  .tools-screen-text {
+    max-width: 479px;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 20px;
+    position: relative;
+    left: 49px;
+  }
+
+  .tool-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .tools-screen-item-title {
+    display: block;
+    color: #ffff;
+    font-size: 16px;
+    position: relative;
+    bottom: -3px;
+    left: 1px;
+  }
+  .tools-screen-item-text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ffff;
+    max-width: 248px;
+  }
+}
+@media (max-width: 992px) {
+  .tools-screen-media {
+    display: none;
+  }
+
+  .tools-screen-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    width: 677px;
+    margin: auto;
+    display: grid;
+    position: relative;
+    right: -19px;
+    top: 57px;
+  }
+}
+@media (max-width: 768px) {
+  .tools-screen-title {
+    font-size: 32px;
+    color: #ffff;
+    font-weight: 400;
+    display: inline;
+    position: relative;
+    left: -71px;
+  }
+  .tools-screen-text {
+    max-width: 479px;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 20px;
+    position: relative;
+    left: -67px;
+  }
+
+  .tools-screen-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 84px;
+    width: 955px;
+    margin: auto;
+    display: grid;
+    position: relative;
+    right: 58px;
+    top: 57px;
+  }
+}
+@media (max-width: 690px) {
+  .tools-screen-list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 84px;
+    width: 967px;
+    margin: auto;
+    display: grid;
+    position: relative;
+    right: 57px;
+    top: 57px;
+  }
+  .tools-screen-text {
+    display: none;
+  }
+
+  .tools-screen-media {
+    display: block;
+  }
+
+  .tools-screen-img-media {
+    display: block;
+    position: relative;
+    bottom: 89px;
+    right: 49px;
+  }
+
+  .tools-screen-img {
+    display: none;
+  }
+
+  .tools-screen-content {
+    display: block;
+  }
+
+  .tools-screen-item-text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ffff;
+    max-width: 361px;
+  }
+  .tools-screen-title {
+    font-size: 23px;
+    color: #ffff;
+    font-weight: 400;
+    display: inline;
+    position: relative;
+    left: -35px;
+  }
+}

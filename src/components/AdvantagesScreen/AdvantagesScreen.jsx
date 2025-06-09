@@ -9,10 +9,12 @@ import step from "../../assets/step.svg";
 
 export default function AdvantagesScreen() {
   return (
-    <div className="advantages-screen">
-      <h2 className="advantages-screen-title">
-        Чего ты добьешься с помощью приложения
-      </h2>
+    <div className="advantages-screen advantages-steps">
+      <div className="advantages-screen-headline">
+        <h2 className="advantages-screen-title">
+          Чего ты добьешься с помощью приложения
+        </h2>
+      </div>
       <ul className="advantages-screen-list">
         <li className="advantages-screen-item">
           <img

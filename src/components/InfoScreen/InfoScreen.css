@@ -38,3 +38,75 @@
   top: 24%;
   left: 16%;
 }
+
+@media (max-width: 1200px) {
+  .info-screen-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 533px;
+  }
+}
+@media (max-width: 992px) {
+  .info-screen {
+    display: block;
+  }
+
+  .info-screen-media {
+    height: 200px;
+    position: relative;
+    top: -10%;
+    left: 33%;
+  }
+  .info-screen-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 533px;
+    position: relative;
+    bottom: 162px;
+    left: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .info-screen-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 344px;
+    position: relative;
+    bottom: 188px;
+    left: 24px;
+  }
+
+  .info-screen-img {
+    position: relative;
+    z-index: 20;
+    width: 167px;
+    top: 48px;
+    left: 29px;
+  }
+
+  .info-screen {
+    height: 561px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .info-screen-img {
+    position: relative;
+    z-index: 20;
+    width: 143px;
+    top: 47px;
+    left: -133px;
+  }
+  .info-screen-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 370px;
+    position: relative;
+    bottom: 238px;
+    left: -104px;
+  }
+}

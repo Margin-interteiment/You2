@@ -7,14 +7,17 @@ import maps from "../../assets/maps.svg";
 import referee from "../../assets/referee.svg";
 import chart from "../../assets/chart.svg";
 import notification from "../../assets/notification.svg";
+import photoOfToolsScreenForMedia from "../../assets/photoOfToolsScreenForMedia.png";
 
 export default function ToolsScreen() {
   return (
     <div className="tools-screen">
-      <h2 className="tools-screen-title">
-        Как <span className="tools-screen-subtitle">You2</span> поможет тебе
-        сохранить мотивацию на пути к цели
-      </h2>
+      <div className="tools-screen-headline">
+        <h2 className="tools-screen-title">
+          Как <span className="tools-screen-subtitle">You2</span> поможет тебе
+          сохранить мотивацию на пути к цели
+        </h2>
+      </div>
       <p className="tools-screen-text">
         Приложение построено на эффективной системе инструментов, но реальные
         подвиги совершать будешь ты сам
@@ -26,11 +29,16 @@ export default function ToolsScreen() {
             src={photoOfToolsScreen}
             alt="media for tools page"
           />
+          <img
+            className="tools-screen-img-media"
+            src={photoOfToolsScreenForMedia}
+            alt="media for tools page"
+          />
         </div>
         <ul className="tools-screen-list">
           <li className="tools-screen-item">
             <div>
-              <img src={cap} />
+              <img src={cap} className="tool-img" />
               <h3 className="tools-screen-item-title life-title">
                 Личный лайф-коуч
               </h3>
@@ -44,7 +52,7 @@ export default function ToolsScreen() {
           </li>
           <li className="tools-screen-item">
             <div>
-              <img src={island} />
+              <img src={island} className="tool-img" />
               <h3 className="tools-screen-item-title vacation-title">
                 Отпуск и больничный
               </h3>
@@ -57,7 +65,7 @@ export default function ToolsScreen() {
           </li>
           <li className="tools-screen-item ">
             <div>
-              <img src={maps} />
+              <img src={maps} className="tool-img" />
               <h3 className="tools-screen-item-title island-title">
                 Остров личности
               </h3>
@@ -71,7 +79,7 @@ export default function ToolsScreen() {
           </li>
           <li className="tools-screen-item">
             <div>
-              <img src={referee} />
+              <img src={referee} className="tool-img" />
               <h3 className="tools-screen-item-title system-title">
                 Система штрафов
               </h3>
@@ -86,7 +94,7 @@ export default function ToolsScreen() {
           </li>
           <li className="tools-screen-item">
             <div>
-              <img src={chart} />
+              <img src={chart} className="tool-img" />
               <h3 className="tools-screen-item-title grew-title">
                 График твоего роста
               </h3>
@@ -100,7 +108,7 @@ export default function ToolsScreen() {
           </li>
           <li className="tools-screen-item">
             <div>
-              <img src={notification} />
+              <img src={notification} className="tool-img" />
               <h3 className="tools-screen-item-title tasks-title">
                 Напоминания для задач
               </h3>

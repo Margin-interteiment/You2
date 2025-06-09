@@ -74,3 +74,99 @@
   position: relative;
   left: 89px;
 }
+
+@media (max-width: 1200px) {
+  .download-screen-media {
+    position: relative;
+    right: 136px;
+  }
+
+  .download-screen-content {
+    position: relative;
+    height: 200px;
+    top: 233px;
+    right: 210px;
+  }
+}
+@media (max-width: 992px) {
+  .download-screen-img {
+    position: relative;
+    left: 89px;
+    width: 373px;
+  }
+  .download-screen-content {
+    position: relative;
+    height: 200px;
+    top: 95px;
+    right: 218px;
+  }
+
+  .download-screen-text {
+    max-width: 625px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 67px;
+    left: 170px;
+  }
+}
+@media (max-width: 768px) {
+  .download-screen-img {
+    position: relative;
+    left: 89px;
+    width: 315px;
+  }
+
+  .download-screen-content {
+    position: relative;
+    height: 200px;
+    top: 39px;
+    right: 233px;
+  }
+
+  .download-screen-text {
+    max-width: 625px;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 67px;
+    left: 170px;
+  }
+}
+@media (max-width: 576px) {
+  .download-screen-img {
+    display: none;
+  }
+  .download-screen-content {
+    position: relative;
+    height: 396px;
+    top: 39px;
+    right: 233px;
+  }
+  .download-screen-content {
+    position: relative;
+    height: 396px;
+    top: 39px;
+    right: 106px;
+  }
+  .download-screen-text {
+    max-width: 247px;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 400;
+    position: relative;
+    top: -13px;
+    left: 170px;
+  }
+  .download-screen-buttons {
+    position: relative;
+    top: 2px;
+    left: 150px;
+  }
+
+  .download-screen {
+    margin-top: 47px;
+  }
+}
