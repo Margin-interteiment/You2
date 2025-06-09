@@ -1,0 +1,30 @@
+<svg width="451.685425" height="451.939636" viewBox="0 0 451.685 451.94" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_73_4_dd" x="0.000000" y="0.000000" width="451.685425" height="451.939636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="30" dy="30"/>
+			<feGaussianBlur stdDeviation="13.3333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.10196 0 0 0 0 0.10196 0 0 0 0 0.10196 0 0 0 0.039 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-7" dy="-7"/>
+			<feGaussianBlur stdDeviation="4"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.83922 0 0 0 0 0.83922 0 0 0 0 0.83922 0 0 0 0.051 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<linearGradient x1="287.036316" y1="328.993896" x2="14.996246" y2="33.891449" id="paint_linear_73_4_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.057432" stop-color="#F26C5F"/>
+			<stop offset="0.987704" stop-color="#FF6487"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.400000" filter="url(#filter_73_4_dd)">
+		<path d="M250.01 371.75L27.21 192.81C-0.78 170.33 6.61 125.9 40.37 113.71L319.98 12.8C353.75 0.61 387.86 30.06 380.73 65.22L323.91 345.08C317.06 378.83 276.88 393.33 250.01 371.75Z" fill="url(#paint_linear_73_4_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

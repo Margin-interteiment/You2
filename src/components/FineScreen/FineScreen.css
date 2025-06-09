@@ -1,0 +1,38 @@
+.fine-screen {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.fine-screen-text {
+  max-width: 638px;
+  color: #9a9a9a;
+  font-size: 16px;
+}
+
+.text-resolve,
+.text-problem {
+  margin-top: 50px;
+}
+
+.fine-screen-media {
+  position: relative;
+  left: 372px;
+  bottom: -164px;
+  z-index: -1;
+}
+
+.fine-screen-title {
+  color: #828282;
+  font-size: 36px;
+  line-height: 1;
+  max-width: 582px;
+  font-weight: 500;
+}
+
+.fine-screen-content {
+  height: 350px;
+  position: relative;
+  top: 230px;
+  left: 140px;
+}

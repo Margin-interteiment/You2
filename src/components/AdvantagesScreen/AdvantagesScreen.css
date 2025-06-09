@@ -1,0 +1,31 @@
+.advantages-screen {
+  margin-top: 200px;
+}
+
+.advantages-screen-list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 116px;
+  width: 1005px;
+  margin: auto;
+  display: grid;
+}
+
+.advantages-screen-title {
+  font-size: 32px;
+  color: #f73259;
+  font-weight: 700;
+  position: relative;
+  left: 30%;
+  bottom: 109px;
+  display: inline;
+}
+
+.advantages-screen-item {
+  list-style: none;
+}
+
+.advantages-screen-text {
+  color: #9a9a9a;
+  margin-top: 30px;
+  font-size: 16px;
+}

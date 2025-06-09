@@ -1,0 +1,30 @@
+<svg width="309.787476" height="307.984619" viewBox="0 0 309.787 307.985" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_78_11_dd" x="0.000000" y="0.000000" width="309.787476" height="307.984619" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="30" dy="30"/>
+			<feGaussianBlur stdDeviation="13.3333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.10196 0 0 0 0 0.10196 0 0 0 0 0.10196 0 0 0 0.039 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-7" dy="-7"/>
+			<feGaussianBlur stdDeviation="4"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.83922 0 0 0 0 0.83922 0 0 0 0 0.83922 0 0 0 0.051 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<linearGradient x1="177.914230" y1="209.696854" x2="8.275284" y2="17.375473" id="paint_linear_78_11_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.057432" stop-color="#F26C5F"/>
+			<stop offset="0.987704" stop-color="#FF6487"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_78_11_dd)">
+		<path d="M145.35 229.51L22.86 126.63C1.34 108.56 7.89 73.92 34.51 64.97L192.24 11.92C218.87 2.97 245.06 26.59 238.87 53.99L203.63 209.91C197.69 236.2 166.01 246.86 145.35 229.51Z" fill="url(#paint_linear_78_11_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

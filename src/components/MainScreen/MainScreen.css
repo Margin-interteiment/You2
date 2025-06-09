@@ -1,0 +1,77 @@
+.main-screen-content::before {
+  content: "";
+  position: absolute;
+  top: -62px;
+  left: 173px;
+  width: 1200px;
+  height: 400px;
+  background-image: url("../../assets/photoOfYou2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-screen {
+  display: flex;
+  margin-top: 78px;
+  margin-left: 78px;
+}
+
+.main-screen-description {
+  max-width: 834px;
+  color: #9e9e9e;
+  font-size: 16px;
+  margin-top: 66px;
+}
+
+.main-screen-title {
+  color: #f35050;
+  font-size: 58px;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px #555555;
+  max-width: 554px;
+  line-height: 1;
+}
+
+.main-screen-subtitle {
+  color: #646464;
+}
+
+.main-screen-media {
+  position: relative;
+  left: 1%;
+  top: 115px;
+}
+
+.main-screen-button {
+  cursor: pointer;
+  width: 305px;
+  background: linear-gradient(to right, #e84b28, #f92f60);
+  padding: 20px;
+  color: #ffff;
+  font-size: 16px;
+  position: relative;
+  z-index: 20;
+  border: none;
+  border-radius: 20px;
+  margin-top: 69px;
+  box-shadow: 2px 2px 8px #f92f60;
+  transition: all 0.3s ease;
+}
+
+.main-screen-content {
+  margin-top: 141px;
+  margin-top: 203px;
+  margin-left: 87px;
+}
+
+.main-screen::before {
+  content: "";
+  position: absolute;
+  top: -244px;
+  left: -25px;
+  width: 1633px;
+  height: 1399px;
+  background-image: url("../../assets/decorForMainPage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}

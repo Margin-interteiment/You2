@@ -1,0 +1,52 @@
+.countdown-wrapper {
+  text-align: center;
+  color: #333;
+}
+
+.gray {
+  color: #888;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.red {
+  color: #f54c4c;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.time-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.time-block {
+  margin: 0 8px;
+  text-align: center;
+}
+
+.time-value {
+  font-size: 100px;
+  font-weight: 600;
+  color: #f35050;
+  margin-right: 67px;
+}
+
+.time-label {
+  margin-top: 1px;
+  font-size: 20px;
+  color: #b6b6b6;
+  margin-left: 33px;
+}
+
+.separator {
+  font-size: 96px;
+  color: #f35050;
+  margin: 0 5px;
+  opacity: 20%;
+  position: relative;
+  top: -18px;
+  right: 30px;
+}

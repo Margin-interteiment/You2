@@ -1,0 +1,65 @@
+.footer {
+  margin-top: 50px;
+  margin-left: 70px;
+  display: flex;
+}
+
+.footer-contact-title {
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
+  display: inline;
+  position: relative;
+  left: 7px;
+}
+
+.footer-contact-list {
+  display: flex;
+}
+
+.footer-contact-item {
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.vk-link {
+  position: relative;
+  top: -7px;
+}
+
+.footer-adress-text {
+  color: #828282;
+  font-size: 16px;
+  max-width: 300px;
+  text-align: end;
+  position: relative;
+  left: 700%;
+}
+
+.footer-adress-subtext {
+  display: block;
+}
+
+.footer-adress-text::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/mapForFooter.svg");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  left: 179px;
+  margin-top: 4px;
+}
+
+.footer-contact {
+  margin-left: 59px;
+}
+
+.footer-contact-link svg {
+  transition: fill 0.3s;
+}
+
+.footer-contact-link:hover svg {
+  fill: #f43750;
+}

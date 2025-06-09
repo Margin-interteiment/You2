@@ -1,0 +1,40 @@
+.info-screen {
+  background-image: url("../../assets/bgForInfo.jpeg");
+  width: 100%;
+  height: 474px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: flex;
+  padding: 70px;
+  margin-top: 105px;
+}
+
+.info-screen-content {
+  height: 199px;
+  position: relative;
+  top: 33%;
+  left: 20%;
+  max-width: 1022px;
+}
+.info-screen-text {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.info-screen-subtext {
+  font-weight: 700;
+}
+
+.info-screen-img {
+  position: relative;
+  z-index: 20;
+}
+
+.info-screen-media {
+  height: 200px;
+  position: relative;
+  top: 24%;
+  left: 16%;
+}

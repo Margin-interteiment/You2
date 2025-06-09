@@ -1,0 +1,94 @@
+.slider-screen {
+  background-image: url("../../assets/bgForSlider.jpeg");
+  width: 100%;
+  height: 810px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.slider-screen-item {
+  background: linear-gradient(to right, #ffffff, #e8e8e8);
+  padding: 70px;
+  border-radius: 16px;
+  max-width: 1200px;
+  position: relative;
+  left: 250px;
+}
+
+.swiper {
+  margin-top: 135px;
+}
+
+.slider-screen-headline {
+  font-size: 18px;
+  color: #757575;
+  font-weight: 400;
+  position: relative;
+  left: 4%;
+  top: 33px;
+}
+
+.slider-screen-subcontact {
+  display: block;
+  font-size: 16px;
+  color: #acacac;
+  margin-top: 3px;
+  font-weight: 400;
+}
+
+.profile-info {
+  display: flex;
+}
+
+.contact-list {
+  display: flex;
+  position: relative;
+  bottom: 33px;
+  left: 169px;
+}
+
+.contact-item {
+  list-style: none;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.contact-item-img {
+  width: 15px;
+  height: 15px;
+}
+
+.slider-screen-blockquote {
+  font-size: 16px;
+  color: #9a9a9a;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+  width: 13px;
+  height: 13px;
+  position: relative;
+  right: 46px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff5722 !important;
+}
+.slider-screen-title {
+  max-width: 659px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  left: 16%;
+  top: 49px;
+}
