@@ -199,12 +199,7 @@
   }
 
   .main-screen-content::before {
-    content: "";
-    position: absolute;
-    top: 143px;
-    left: 119px;
-    width: 1200px;
-    height: 400px;
+    display: none;
   }
 
   .main-screen-media {

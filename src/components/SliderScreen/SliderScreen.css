@@ -190,14 +190,14 @@
   }
 
   .slider-screen-item {
-    background: linear-gradient(to right, #ffffff, #e8e8e8);
-    padding: 47px;
+    background: linear-gradient(90deg, #fff, #e8e8e8);
     border-radius: 16px;
-    max-width: 1204px;
-    position: relative;
     left: -1px;
+    max-width: 1204px;
+    padding: 47px;
+    position: relative;
+    height: 520px;
   }
-
   .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
   .swiper-pagination-horizontal.swiper-pagination-bullets
     .swiper-pagination-bullet {
@@ -209,10 +209,10 @@
   }
 
   .slider-screen-blockquote {
-    font-size: 16px;
-    color: #9a9a9a;
-    position: relative;
     bottom: 3px;
+    color: #9a9a9a;
+    font-size: 13px;
+    position: relative;
   }
   .slider-screen-title {
     max-width: 813px;
