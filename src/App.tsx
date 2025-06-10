@@ -8,6 +8,7 @@ import SliderScreen from "./components/SliderScreen/SliderScreen";
 import RequestScreen from "./components/RequestScreen/RequestScreen";
 import DownloadScreen from "./components/DownloadScreen/DownloadScreen";
 import Footer from "./components/Footer/Footer";
+import { app } from "./firebase";
 
 function App() {
   return (
